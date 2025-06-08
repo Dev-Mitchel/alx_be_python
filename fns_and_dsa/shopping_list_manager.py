@@ -1,10 +1,14 @@
-shopping_list = []
-while True:
+def display_menu():
     print("Shopping List Manager")
     print("1. Add item")
     print("2. Remove item")
     print("3. View list")
     print("4. Exit")
+
+shopping_list = []
+
+while True:
+    display_menu()
     choice =int(input("choose a number that represents your choice: "))
     if choice == 1:
         add = input("Add an item to your shopping list: ").lower()
