@@ -11,7 +11,7 @@ while True:
     display_menu()
     choice =int(input("choose a number that represents your choice: "))
     if choice == 1:
-        add = input("Add an item to your shopping list: ").lower()
+        add = input("Enter the item to add: ").lower()
         shopping_list.append(add)
     elif choice == 2:
         remove = input("Choose an item to remove from the list: ").lower()
