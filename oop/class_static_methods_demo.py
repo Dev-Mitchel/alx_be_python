@@ -1,6 +1,6 @@
 class Calculator:
     # class attribute
-    calculator_type = "Arithmetic Operations"
+    calculation_type = "Arithmetic Operations"
 
     @staticmethod
     def add(a, b):
